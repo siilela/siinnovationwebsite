@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clear {
+  clear: both;
+}
+
+html {
+  font-size: 62.7%;
+}
+h1 {
+  font: 2.8rem;
+}
+h2 {
+  font-size: 3.6rem;
+  padding: 5rem 0rem;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+button {
+  font-size: 1.8rem;
+}
+nav {
+  background: black;
+  color: gold;
+  padding: 3rem;
+}
+nav h1 {
+  float: left;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav li {
+  float: left;
+  margin: 0rem 4rem;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero-section {
+  background-image: url(/img/bg.jpg);
+  height: 80rem;
+  background-size: cover;
+  text-align: center;
+  color: black;
+  padding-top: 15rem;
+  text-shadow: 3px 3px 10px gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-section {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+}
+form textarea {
+  display: block;
+  font-size: 2.4rem;
+}
+form input,
+form textarea {
+  margin: 2rem auto;
+  border: gold solid 2px;
+}
+form button {
+  margin-bottom: 10rem;
+  padding: 1rem 4rem;
+  background: yellow;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+nav footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+
+  background: black;
+  color: gold;
+  padding: 3rem;
+}
+.logo {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1px;
+  width: 20px;
+}
+/* .box1,
+.box2,
+.box3 {
+  max-width: 80rem;
+  max-height: 30rem;
+  border: 2px solid black;
+  margin: 1rem;
+  font-size: 2.8rem;
+} */
